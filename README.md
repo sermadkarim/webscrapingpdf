@@ -18,8 +18,7 @@ Additionally, make sure you have the ChromeDriver installed and available in you
 ## Install Requirements
 1. Clone the Repository
 ```bash
-git clone https://github.com/sermadkarim /webscrapingpdf.git
-cd webscrapingpdf
+https://github.com/sermadkarim/webscrapingpdf.git
 ```
 
 2. Install the required libraries
