@@ -50,7 +50,7 @@ def save_latex(latex_content, output_file):
         f.write(latex_content)
 
 
-pdf_path ='/Users/sermadkarim/Documents/Project/Proj/Mark-scheme-Paper-1-Financial-accounting-June-2022.pdf'
+pdf_path ='/Users/sermadkarim/Downloads/Mark-scheme-Paper-1-Financial-accounting-June-2022.pdf'
 output_file = "output1.tex"
 
 text_data = extract_text_from_pdf(pdf_path)
@@ -58,3 +58,5 @@ tables_data = extract_tables_from_pdf(pdf_path)
 
 latex_content = generate_latex(text_data, tables_data)
 save_latex(latex_content, output_file)
+
+
