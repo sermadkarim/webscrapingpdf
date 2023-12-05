@@ -94,7 +94,7 @@ The script downloads PDF files to the specified folder (/Users/sermadkarim/Docum
 Note: Make sure to update the folder path to your preferred destination.
 
 
-#Others and Utils Folder
+# Others and Utils Folder
 Folder Structure
 
 ### Automatic Web Scraper (autoscraper.py):
