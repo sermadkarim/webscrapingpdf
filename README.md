@@ -94,8 +94,8 @@ The script downloads PDF files to the specified folder (/Users/sermadkarim/Docum
 Note: Make sure to update the folder path to your preferred destination.
 
 
-# Others and Utils Folder
-Folder Structure
+# Others Folder
+Python Scripts
 
 ### Automatic Web Scraper (autoscraper.py):
 This script utilizes the autoscraper library to automatically extract data from web pages. It is designed for ease of use and quick setup. Customize the scraper according to your specific needs.
@@ -107,3 +107,37 @@ The latex.py script converts PDF files to LaTeX format. It is a useful tool for 
 The output.tex file is the result of the PDF to LaTeX conversion. Customize and further edit this LaTeX file as needed.
 ### Utils Folder:
 The 'Utils' folder contains utility classes used in the main program. Organizing classes into this folder promotes modularity and maintainability.
+
+# Utils Folder
+This folder (Utils) contains utility modules for web scraping and PDF manipulation. The primary module in this folder is paper_downloader.py, which includes the PaperDownloader class for automating the download of papers from a website.
+
+### 'paper_downloader.py'
+
+## Overview
+
+The paper_downloader.py module provides a class, PaperDownloader, designed to streamline the process of downloading papers from a specific website. It uses Selenium for web automation and Requests for downloading PDFs.
+
+### Dependencies
+selenium: Web automation library
+requests: HTTP library for handling requests
+
+Install the dependencies using:
+```bash
+pip install selenium requests
+```
+## Usage
+Import the PaperDownloader class in your main script.
+```bash
+from Utils.paper_downloader import PaperDownloader
+```
+
+## Create an instance of PaperDownloader and invoke the download_papers method.
+```bash
+if __name__ == "__main__":
+    url = 'https://www.example.com/papers'
+    downloader = PaperDownloader(url)
+    downloader.download_papers()
+```
+# Note
+Ensure you have the correct web driver (e.g., ChromeDriver) installed for Selenium. Update the script if needed.
+Be aware of the website's terms of service and legal requirements when using web scraping techniques.
