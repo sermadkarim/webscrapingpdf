@@ -87,9 +87,23 @@ if __name__ == "__main__":
 ```
 The main block creates an instance of the PaperDownloader class, passing the AQA website URL, and invokes the download_papers method.
 
-# Output
+## Output
 
 The script downloads PDF files to the specified folder (/Users/sermadkarim/Documents/Projects/TaskPDFs/PDFs). The filenames are derived from the text of the corresponding links on the webpage.
 
 Note: Make sure to update the folder path to your preferred destination.
 
+
+#Others and Utils Folder
+Folder Structure
+
+### Automatic Web Scraper (autoscraper.py):
+This script utilizes the autoscraper library to automatically extract data from web pages. It is designed for ease of use and quick setup. Customize the scraper according to your specific needs.
+### Manual Web Scraper (scraper.py):
+This script uses the Selenium library for manual web scraping. It navigates through web pages, interacts with elements, and extracts information. Customize the script based on the structure of the target website.
+### PDF to LaTeX Converter (latex.py):
+The latex.py script converts PDF files to LaTeX format. It is a useful tool for transforming PDF documents into a format suitable for LaTeX typesetting.
+### LaTeX Output (output.tex):
+The output.tex file is the result of the PDF to LaTeX conversion. Customize and further edit this LaTeX file as needed.
+### Utils Folder:
+The 'Utils' folder contains utility classes used in the main program. Organizing classes into this folder promotes modularity and maintainability.
