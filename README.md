@@ -23,7 +23,7 @@ git clone https://github.com/sermadkarim/webscrapingpdf.git
 
 2. Install the required libraries
 ```bash
-pip3 install -r webscrapingpdf/requirements.txt
+pip install -r webscrapingpdf/requirements.txt
 ```
 3. Run your script
 ```bash
